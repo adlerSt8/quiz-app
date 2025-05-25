@@ -9,7 +9,8 @@ public class Quiz {
     public Quiz() {
         questions = List.of(
                 new Question("Какой язык компилируется в байт-код?", List.of("Java", "Python", "HTML"), 1),
-                new Question("Сколько бит в байте?", List.of("8", "16", "32"), 1)
+                new Question("Сколько бит в байте?", List.of("8", "16", "32"), 1),
+                new Question("Сколько ног у человека ?", List.of("8", "2", "32"), 2)
         );
     }
 
