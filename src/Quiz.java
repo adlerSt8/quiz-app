@@ -14,7 +14,8 @@ public class Quiz {
                 new Question("Сколько байт в 1 килобайте?", List.of("8", "1024", "1000"), 2),
                 new Question("Сколько ног у человека ?", List.of("8", "2", "32"), 2),
                 new Question("Сколько байт в int?", List.of("1", "2", "4", "8"), 3),
-                new Question("Что такое null?", List.of("Псевдоним для 0", "В java такого нет", "Специальное значение для ссылок"), 3)
+                new Question("Что такое null?", List.of("Псевдоним для 0", "В java такого нет", "Специальное значение для ссылок"), 3),
+                new Question("Что весит больше?", List.of("boolean","int","double"), 3)
         );
     }
 
